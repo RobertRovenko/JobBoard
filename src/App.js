@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import JobDetail from "./pages/JobDetail"; // Import JobDetail component
 import Jobs from "./pages/Jobs"; // Import Jobs component
 import About from "./pages/About"; // Import About component
+import Contact from "./pages/Contact"; // Import Contact component
 import Footer from "./components/Footer";
 import jobs from "./jobData";
 import "./index.css";
@@ -19,9 +20,14 @@ function App() {
             <Route path="/" element={<Home jobs={jobs} />} />{" "}
             {/* Pass jobs to Home */}
             <Route path="/jobs" element={<Jobs />} /> {/* Route for Jobs */}
-            <Route path="/jobs/:jobId" element={<JobDetail jobs={jobs} />} />
+            <Route
+              path="/jobs/:jobId"
+              element={<JobDetail jobs={jobs} />}
+            />{" "}
             {/* Pass jobs to JobDetail */}
             <Route path="/about" element={<About />} /> {/* Route for About */}
+            <Route path="/contact" element={<Contact />} />{" "}
+            {/* Route for Contact */}
           </Routes>
         </main>
         <Footer />

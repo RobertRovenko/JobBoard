@@ -25,7 +25,7 @@ const About = () => {
               <p className="font-semibold text-gray-800">Robert Falkbäck</p>
               <p className="text-gray-600">Founder & CEO</p>
               <p className="text-sm text-gray-600 mt-2 text-center">
-                Robert is dedicated to transforming the job search experience for both job seekers and employers.
+               Dedicated to transform the job search experience for both job seekers and employers.
               </p>
             </div>
           </div>
@@ -61,13 +61,6 @@ const About = () => {
           </p>
         </section>
 
-        <section className="text-center"> {/* Centered text */}
-          <h2 className="text-3xl font-semibold mb-4 text-white">Contact Us</h2>
-          <p className="text-white pb-10 px-4 md:px-16">
-            If you have any questions or feedback, feel free to{" "}
-            <a href="/contact" className="text-gray-300 hover:underline">contact us</a>.
-          </p>
-        </section>
       </div>
     </div>
   );
