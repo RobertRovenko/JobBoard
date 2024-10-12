@@ -131,7 +131,6 @@ const JobDetail = () => {
             )}
 
             {/* Tags */}
-            <h3 className="text-xl font-bold mb-2">Tags:</h3>
             <div className="flex flex-wrap mb-4">
               {job.tags.map((tag, index) => (
                 <span key={index} className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2">

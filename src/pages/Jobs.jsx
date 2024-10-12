@@ -36,13 +36,13 @@ const Jobs = () => {
 
   const isSalaryInRange = (minSalary, maxSalary) => {
     if (filter.salaryRange === 'low') {
-      return maxSalary < 60000;
+      return maxSalary < 45000;
     }
     if (filter.salaryRange === 'medium') {
-      return minSalary >= 60000 && minSalary < 80000;
+      return minSalary >= 45000 && minSalary < 60000;
     }
     if (filter.salaryRange === 'high') {
-      return minSalary >= 80000;
+      return minSalary >= 60000;
     }
     return true;
   };
@@ -115,9 +115,9 @@ const Jobs = () => {
 
             <select name="salaryRange" value={filter.salaryRange} onChange={handleFilterChange} className="border border-gray-300 rounded px-4 py-2 mb-4 md:mb-0 w-full">
               <option value="all">All Salaries</option>
-              <option value="low">Below $60,000</option>
-              <option value="medium">$60,000 - $80,000</option>
-              <option value="high">Above $80,000</option>
+              <option value="low">Below 45,000 SEK</option>
+              <option value="medium">45,000 - 60,000 SEK</option>
+              <option value="high">Above 60,000 SEK</option>
             </select>
 
             <select name="tags" value={filter.tags} onChange={handleFilterChange} className="border border-gray-300 rounded px-4 py-2 w-full">

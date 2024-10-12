@@ -9,18 +9,23 @@ const Navbar = () => {
     setIsMobileMenuOpen(false);
   };
 
+  // Function to scroll to top
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top with smooth behavior
+  };
+
   return (
     <nav className="bg-white shadow-md fixed w-full z-20">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src="/images/coding.png" alt="JobBoard" className="h-8 w-8 mr-2" />
-          <Link to="/" className="text-xl font-bold text-gray-800">JobBoard</Link>
+          <Link to="/" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl font-bold text-gray-800">JobBoard</Link>
         </div>
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="text-gray-600 transition-transform transform hover:scale-125">Home</Link>
-          <Link to="/jobs" className="text-gray-600 transition-transform transform hover:scale-125">Jobs</Link>
-          <Link to="/about" className="text-gray-600 transition-transform transform hover:scale-125">About</Link>
-          <Link to="/contact" className="text-gray-600 transition-transform transform hover:scale-125">Contact</Link>
+          <Link to="/" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">Home</Link>
+          <Link to="/jobs" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">Jobs</Link>
+          <Link to="/about" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">About</Link>
+          <Link to="/contact" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">Contact</Link>
         </div>
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
@@ -58,10 +63,10 @@ const Navbar = () => {
           </button>
 
           {/* Menu items */}
-          <Link to="/" onClick={closeMobileMenu} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Home</Link>
-          <Link to="/jobs" onClick={closeMobileMenu} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Jobs</Link>
-          <Link to="/about" onClick={closeMobileMenu} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">About</Link>
-          <Link to="/contact" onClick={closeMobileMenu} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Contact</Link>
+          <Link to="/" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Home</Link>
+          <Link to="/jobs" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Jobs</Link>
+          <Link to="/about" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">About</Link>
+          <Link to="/contact" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Contact</Link>
         </div>
       )}
     </nav>

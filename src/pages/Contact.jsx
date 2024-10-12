@@ -4,7 +4,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: 'Hiring and want to upload a job listing', // Default value
+    subject: 'Hiring', // Default value
     message: '',
   });
 
@@ -67,9 +67,10 @@ const Contact = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
               required
             >
-              <option value="Hiring and want to upload a job listing">Hiring and want to upload a job listing</option>
+              <option value="Hiring and want to upload a job listing">Hiring</option>
               <option value="Looking for a job">Looking for a job</option>
-              <option value="Want to display an ad on the site">Want to display an ad on the site</option>
+              <option value="Want to display an ad on the site">Display an ad</option>
+              <option value="Looking for a job">Support us</option>
               <option value="Other">Other</option>
             </select>
           </div>

@@ -6,6 +6,8 @@ import JobDetail from "./pages/JobDetail"; // Import JobDetail component
 import Jobs from "./pages/Jobs"; // Import Jobs component
 import About from "./pages/About"; // Import About component
 import Contact from "./pages/Contact"; // Import Contact component
+import PrivacyPolicy from "./pages/PrivacyPolicy"; // Import PrivacyPolicy component
+import TermsOfService from "./pages/TermsOfService"; // Import TermsOfService component
 import Footer from "./components/Footer";
 import jobs from "./jobData";
 import "./index.css";
@@ -28,6 +30,10 @@ function App() {
             <Route path="/about" element={<About />} /> {/* Route for About */}
             <Route path="/contact" element={<Contact />} />{" "}
             {/* Route for Contact */}
+            <Route path="/privacy" element={<PrivacyPolicy />} />{" "}
+            {/* Route for Privacy Policy */}
+            <Route path="/terms" element={<TermsOfService />} />{" "}
+            {/* Route for Terms of Service */}
           </Routes>
         </main>
         <Footer />

@@ -2,18 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/images/coding.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="Job Board"
-      content="Find your dream job!"
-    />
-  
-    <title>Job Board</title>
-  </head>
+    
+    <!-- SEO-friendly Title -->
+    <title>Find Software Developer Jobs in Stockholm | Job Board</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Find the best software developer jobs in Stockholm on our job board. Apply now to join top companies looking for talented software engineers in Sweden." />
+    
+    <!-- Keywords (Optional) -->
+    <meta name="keywords" content="software developer jobs, tech jobs, engineering jobs, IT jobs, Stockholm jobs, Sweden tech jobs" />
+    
+    <!-- Open Graph tags for Social Sharing -->
+    <meta property="og:title" content="Find Software Developer Jobs in Stockholm | Job Board" />
+    <meta property="og:description" content="Apply for software developer positions at top companies in Stockholm today!" />
+    <meta property="og:image" content="/images/coding.png" />
+    <meta property="og:url" content="https://job-board-sweden.vercel.app/" />
+    
+    <!-- Schema Markup for Job Posting (Example) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "JobPosting",
+      "title": "Software Developer",
+      "description": "Join our team as a software developer. Experience with React and Node.js required.",
+      "datePosted": "2024-10-11",
+      "employmentType": "Full-time",
+      "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Tech Corp",
+        "sameAs": "https://techcorp.com"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "addressLocality": "Stockholm",
+          "addressRegion": "Stockholm County",
+          "addressCountry": "SE"
+        }
+      }
+    }
+    </script>
+    
+    <link rel="icon" href="/images/coding.png" />
+  </head>  
   <body>
     <div id="root"></div>
-  
   </body>
 </html>

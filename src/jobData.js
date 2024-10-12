@@ -5,8 +5,8 @@ const jobs = [
     id: "1",
     title: "Junior Frontend Developer",
     company: "Tech Corp",
-    location: "New York, NY",
-    salary: "$60,000 - $70,000",
+    location: "Stockholm, Sweden",
+    salary: "50,000 - 58,333 SEK",
     level: "Junior",
     description: "Join our team to develop modern web applications.",
     requirements: [
@@ -25,8 +25,8 @@ const jobs = [
     additionalInfo: "This position offers growth opportunities and mentorship.",
     companyWebsite: "https://techcorp.com",
     benefits: [
-      "Health, dental, and vision insurance.",
-      "401(k) matching.",
+      "Health and dental insurance.",
+      "Pension plan.",
       "Paid time off and holidays.",
       "Remote work options.",
     ],
@@ -40,8 +40,8 @@ const jobs = [
     id: "2",
     title: "Mobile App Developer",
     company: "Innovate LLC",
-    location: "San Francisco, CA",
-    salary: "$80,000 - $90,000",
+    location: "Gothenburg, Sweden",
+    salary: "66,667 - 75,000 SEK ",
     level: "Mid-Level",
     description: "Work on innovative mobile solutions.",
     requirements: [
@@ -73,8 +73,8 @@ const jobs = [
     id: "3",
     title: "Senior Backend Developer",
     company: "Data Solutions",
-    location: "Austin, TX",
-    salary: "$110,000 - $130,000",
+    location: "Malmö, Sweden",
+    salary: "91,667 - 108,333 SEK  ",
     level: "Senior",
     description: "Lead backend development efforts for our products.",
     requirements: [
@@ -94,7 +94,7 @@ const jobs = [
     companyWebsite: "https://datasolutions.com",
     benefits: [
       "Comprehensive health insurance.",
-      "401(k) retirement plan.",
+      "Pension plan.",
       "Paid sick leave and vacation time.",
     ],
     applicationDeadline: "2024-10-30",
@@ -107,8 +107,8 @@ const jobs = [
     id: "4",
     title: "UI/UX Designer",
     company: "Creative Minds",
-    location: "Los Angeles, CA",
-    salary: "$70,000 - $85,000",
+    location: "Stockholm, Sweden",
+    salary: "58,333 - 70,833 SEK",
     level: "Mid-Level",
     description: "Design engaging user experiences across platforms.",
     requirements: [
@@ -140,8 +140,8 @@ const jobs = [
     id: "5",
     title: "Full Stack Developer",
     company: "NextGen Tech",
-    location: "Chicago, IL",
-    salary: "$90,000 - $110,000",
+    location: "Uppsala, Sweden",
+    salary: "75,000 - 91,667 SEK ",
     level: "Mid-Level",
     description: "Develop full-stack applications for diverse clients.",
     requirements: [
@@ -169,14 +169,12 @@ const jobs = [
     remoteOptions: true,
     tags: ["Full Stack", "React", "Node.js"],
   },
-  // Add more jobs as needed
-  // 6 to 30 jobs can follow the same structure.
   {
     id: "6",
     title: "Data Scientist",
     company: "Analytics Co.",
-    location: "Seattle, WA",
-    salary: "$100,000 - $120,000",
+    location: "Sweden",
+    salary: "40,000 - 50,000 SEK",
     level: "Senior",
     description: "Analyze and interpret complex data sets.",
     requirements: [
@@ -195,7 +193,7 @@ const jobs = [
     companyWebsite: "https://analyticsco.com",
     benefits: [
       "Comprehensive health and dental insurance.",
-      "401(k) retirement plan with matching.",
+      "Pension plan with matching.",
       "Flexible working hours.",
     ],
     applicationDeadline: "2024-11-10",
@@ -208,8 +206,8 @@ const jobs = [
     id: "7",
     title: "Product Manager",
     company: "Startup Hub",
-    location: "Boston, MA",
-    salary: "$95,000 - $115,000",
+    location: "Sweden",
+    salary: "35,000 - 45,000 SEK",
     level: "Senior",
     description: "Drive product strategy and execution.",
     requirements: [
@@ -241,8 +239,8 @@ const jobs = [
     id: "8",
     title: "DevOps Engineer",
     company: "Cloud Services",
-    location: "Miami, FL",
-    salary: "$90,000 - $110,000",
+    location: "Sweden",
+    salary: "30,000 - 40,000 SEK",
     level: "Mid-Level",
     description: "Automate and optimize CI/CD processes.",
     requirements: [
@@ -261,7 +259,7 @@ const jobs = [
     companyWebsite: "https://cloudservices.com",
     benefits: [
       "Health insurance and wellness programs.",
-      "401(k) with company match.",
+      "Pension plan with company match.",
       "Training and professional development opportunities.",
     ],
     applicationDeadline: "2024-11-20",
@@ -274,8 +272,8 @@ const jobs = [
     id: "9",
     title: "Graphic Designer",
     company: "Design Studio",
-    location: "Orlando, FL",
-    salary: "$55,000 - $65,000",
+    location: "Sweden",
+    salary: "25,000 - 35,000 SEK",
     level: "Entry-Level",
     description: "Create visual content for various platforms.",
     requirements: [
@@ -307,8 +305,8 @@ const jobs = [
     id: "10",
     title: "Cybersecurity Analyst",
     company: "Secure IT",
-    location: "Washington, D.C.",
-    salary: "$75,000 - $90,000",
+    location: "Sweden",
+    salary: "35,000 - 45,000 SEK",
     level: "Mid-Level",
     description: "Protect our systems and data from cyber threats.",
     requirements: [
@@ -327,7 +325,7 @@ const jobs = [
     companyWebsite: "https://secureit.com",
     benefits: [
       "Comprehensive health insurance.",
-      "401(k) with employer match.",
+      "Pension plan with employer match.",
       "Professional development opportunities.",
     ],
     applicationDeadline: "2024-11-05",
@@ -340,8 +338,8 @@ const jobs = [
     id: "11",
     title: "Software Tester",
     company: "Quality Assurance Inc.",
-    location: "Philadelphia, PA",
-    salary: "$50,000 - $60,000",
+    location: "Sweden",
+    salary: "25,000 - 35,000 SEK",
     level: "Entry-Level",
     description: "Test software applications for quality assurance.",
     requirements: [
@@ -373,8 +371,8 @@ const jobs = [
     id: "12",
     title: "Content Writer",
     company: "Content Creators",
-    location: "Remote",
-    salary: "$45,000 - $55,000",
+    location: "Sweden",
+    salary: "20,000 - 30,000 SEK",
     level: "Entry-Level",
     description: "Write engaging content for blogs and websites.",
     requirements: [
@@ -406,8 +404,8 @@ const jobs = [
     id: "13",
     title: "IT Support Specialist",
     company: "Tech Support Co.",
-    location: "Columbus, OH",
-    salary: "$50,000 - $65,000",
+    location: "Stockholm, Sweden",
+    salary: "SEK 40,000 - SEK 52,000",
     level: "Entry-Level",
     description: "Provide technical support for users and systems.",
     requirements: [
@@ -439,8 +437,8 @@ const jobs = [
     id: "14",
     title: "Sales Associate",
     company: "Retail World",
-    location: "Phoenix, AZ",
-    salary: "$30,000 - $40,000",
+    location: "Göteborg, Sweden",
+    salary: "SEK 25,000 - SEK 33,000",
     level: "Entry-Level",
     description: "Drive sales and build client relationships.",
     requirements: [
@@ -470,8 +468,8 @@ const jobs = [
     id: "15",
     title: "HR Specialist",
     company: "People Solutions",
-    location: "Charlotte, NC",
-    salary: "$55,000 - $70,000",
+    location: "Malmö, Sweden",
+    salary: "SEK 46,000 - SEK 58,000",
     level: "Mid-Level",
     description: "Manage HR functions and support employees.",
     requirements: [
@@ -488,7 +486,7 @@ const jobs = [
     companyWebsite: "https://peoplesolutions.com",
     benefits: [
       "Comprehensive health insurance.",
-      "401(k) retirement plan.",
+      "Pension plan.",
       "Paid time off and holidays.",
     ],
     applicationDeadline: "2024-11-25",
@@ -501,8 +499,8 @@ const jobs = [
     id: "16",
     title: "Network Engineer",
     company: "Tech Solutions",
-    location: "Phoenix, AZ",
-    salary: "$80,000 - $95,000",
+    location: "Uppsala, Sweden",
+    salary: "SEK 66,000 - SEK 80,000",
     level: "Mid-Level",
     description: "Design and implement network solutions.",
     requirements: [
@@ -532,8 +530,8 @@ const jobs = [
     id: "17",
     title: "Business Analyst",
     company: "Consulting Group",
-    location: "Los Angeles, CA",
-    salary: "$75,000 - $90,000",
+    location: "Lund, Sweden",
+    salary: "SEK 62,000 - SEK 75,000",
     level: "Mid-Level",
     description: "Analyze business processes and provide solutions.",
     requirements: [
@@ -550,7 +548,7 @@ const jobs = [
     companyWebsite: "https://consultinggroup.com",
     benefits: [
       "Comprehensive health benefits.",
-      "401(k) retirement plan with matching.",
+      "Pension plan with matching.",
       "Paid vacation and sick leave.",
     ],
     applicationDeadline: "2024-11-10",
@@ -563,8 +561,8 @@ const jobs = [
     id: "18",
     title: "Quality Control Inspector",
     company: "Manufacturing Inc.",
-    location: "Detroit, MI",
-    salary: "$40,000 - $50,000",
+    location: "Norrköping, Sweden",
+    salary: "SEK 33,000 - SEK 42,000",
     level: "Entry-Level",
     description: "Ensure product quality through inspections.",
     requirements: [
@@ -581,7 +579,7 @@ const jobs = [
     companyWebsite: "https://manufacturinginc.com",
     benefits: [
       "Health and dental insurance.",
-      "401(k) retirement plan.",
+      "Pension plan.",
       "Paid time off.",
     ],
     applicationDeadline: "2024-10-30",
@@ -594,8 +592,8 @@ const jobs = [
     id: "19",
     title: "Research Scientist",
     company: "Bio Labs",
-    location: "San Diego, CA",
-    salary: "$85,000 - $100,000",
+    location: "Umeå, Sweden",
+    salary: "SEK 70,000 - SEK 85,000",
     level: "Senior",
     description: "Conduct research and analysis in biotechnology.",
     requirements: [
@@ -612,7 +610,7 @@ const jobs = [
     companyWebsite: "https://biolabs.com",
     benefits: [
       "Comprehensive health insurance.",
-      "401(k) with employer match.",
+      "Pension plan with employer match.",
       "Professional development opportunities.",
     ],
     applicationDeadline: "2024-11-20",
@@ -625,8 +623,8 @@ const jobs = [
     id: "20",
     title: "Database Administrator",
     company: "Data Management Co.",
-    location: "Atlanta, GA",
-    salary: "$80,000 - $95,000",
+    location: "Örebro, Sweden",
+    salary: "SEK 66,000 - SEK 80,000",
     level: "Mid-Level",
     description: "Manage and maintain database systems.",
     requirements: [
@@ -643,7 +641,7 @@ const jobs = [
     companyWebsite: "https://datamanagementco.com",
     benefits: [
       "Health insurance coverage.",
-      "401(k) retirement plan.",
+      "Pension plan.",
       "Flexible work hours.",
     ],
     applicationDeadline: "2024-12-05",
@@ -652,14 +650,12 @@ const jobs = [
     remoteOptions: false,
     tags: ["Database", "SQL", "IT"],
   },
-  // Add these to your existing jobs array in jobData.js
-
   {
     id: "21",
     title: "SEO Specialist",
     company: "RankHigher",
-    location: "Los Angeles, CA",
-    salary: "$50,000 - $65,000",
+    location: "Stockholm, Sweden",
+    salary: "SEK 40,000 - SEK 52,000",
     level: "Mid-Level",
     description: "Optimize our website to improve search engine rankings.",
     requirements: [
@@ -689,8 +685,8 @@ const jobs = [
     id: "22",
     title: "Graphic Designer",
     company: "Creative Minds",
-    location: "Austin, TX",
-    salary: "$45,000 - $55,000",
+    location: "Malmö, Sweden",
+    salary: "SEK 37,000 - SEK 45,000",
     level: "Entry-Level",
     description: "Design engaging graphics for various media.",
     requirements: [
@@ -720,8 +716,8 @@ const jobs = [
     id: "23",
     title: "Data Analyst",
     company: "Data Insights",
-    location: "Chicago, IL",
-    salary: "$70,000 - $80,000",
+    location: "Stockholm, Sweden",
+    salary: "SEK 70,000 - SEK 80,000",
     level: "Mid-Level",
     description: "Analyze and interpret complex data sets.",
     requirements: [
@@ -752,7 +748,7 @@ const jobs = [
     title: "Content Writer",
     company: "WriteWell",
     location: "Remote",
-    salary: "$40,000 - $55,000",
+    salary: "SEK 40,000 - SEK 55,000",
     level: "Entry-Level",
     description: "Create engaging content for blogs and websites.",
     requirements: [
@@ -782,8 +778,8 @@ const jobs = [
     id: "25",
     title: "Product Manager",
     company: "Innovate Tech",
-    location: "Seattle, WA",
-    salary: "$90,000 - $110,000",
+    location: "Göteborg, Sweden",
+    salary: "SEK 90,000 - SEK 110,000",
     level: "Senior-Level",
     description: "Lead product development from concept to launch.",
     requirements: [
@@ -813,8 +809,8 @@ const jobs = [
     id: "26",
     title: "Full Stack Developer",
     company: "CodeCrafters",
-    location: "Boston, MA",
-    salary: "$80,000 - $100,000",
+    location: "Malmö, Sweden",
+    salary: "SEK 80,000 - SEK 100,000",
     level: "Mid-Level",
     description:
       "Build and maintain web applications using full-stack technologies.",
@@ -845,8 +841,8 @@ const jobs = [
     id: "27",
     title: "DevOps Engineer",
     company: "Cloud Solutions",
-    location: "Denver, CO",
-    salary: "$95,000 - $115,000",
+    location: "Uppsala, Sweden",
+    salary: "SEK 95,000 - SEK 115,000",
     level: "Senior-Level",
     description: "Automate and streamline operations and processes.",
     requirements: [
@@ -876,8 +872,8 @@ const jobs = [
     id: "28",
     title: "Marketing Manager",
     company: "Brand Builders",
-    location: "Miami, FL",
-    salary: "$70,000 - $85,000",
+    location: "Stockholm, Sweden",
+    salary: "SEK 70,000 - SEK 85,000",
     level: "Mid-Level",
     description: "Develop and execute marketing strategies.",
     requirements: [
@@ -903,8 +899,8 @@ const jobs = [
     id: "29",
     title: "Business Analyst",
     company: "Consulting Group",
-    location: "Atlanta, GA",
-    salary: "$65,000 - $80,000",
+    location: "Malmö, Sweden",
+    salary: "SEK 65,000 - SEK 80,000",
     level: "Mid-Level",
     description: "Analyze business processes and provide recommendations.",
     requirements: [
@@ -934,8 +930,8 @@ const jobs = [
     id: "30",
     title: "UI/UX Designer",
     company: "Design Hub",
-    location: "Portland, OR",
-    salary: "$65,000 - $75,000",
+    location: "Stockholm, Sweden",
+    salary: "SEK 65,000 - SEK 75,000",
     level: "Mid-Level",
     description: "Design user-friendly interfaces and experiences.",
     requirements: [
