@@ -10,6 +10,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy"; // Import PrivacyPolicy compo
 import TermsOfService from "./pages/TermsOfService"; // Import TermsOfService component
 import Footer from "./components/Footer";
 import jobs from "./jobData";
+import Profile from "./pages/Profile";
 import "./index.css";
 
 function App() {
@@ -21,18 +22,19 @@ function App() {
           <Routes>
             <Route path="/" element={<Home jobs={jobs} />} />{" "}
             {/* Pass jobs to Home */}
-            <Route path="/jobs" element={<Jobs />} /> {/* Route for Jobs */}
+            <Route path="/jobs" element={<Jobs />} />
             <Route
               path="/jobs/:jobId"
               element={<JobDetail jobs={jobs} />}
             />{" "}
             {/* Pass jobs to JobDetail */}
-            <Route path="/about" element={<About />} /> {/* Route for About */}
-            <Route path="/contact" element={<Contact />} />{" "}
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
             {/* Route for Contact */}
-            <Route path="/privacy" element={<PrivacyPolicy />} />{" "}
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             {/* Route for Privacy Policy */}
-            <Route path="/terms" element={<TermsOfService />} />{" "}
+            <Route path="/terms" element={<TermsOfService />} />
+            <Route path="/profile" element={<Profile />} />
             {/* Route for Terms of Service */}
           </Routes>
         </main>

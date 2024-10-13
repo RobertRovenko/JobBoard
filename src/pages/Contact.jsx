@@ -70,7 +70,7 @@ const Contact = () => {
               <option value="Hiring and want to upload a job listing">Hiring</option>
               <option value="Looking for a job">Looking for a job</option>
               <option value="Want to display an ad on the site">Display an ad</option>
-              <option value="Looking for a job">Support us</option>
+              <option value="Support us">Support us</option>
               <option value="Other">Other</option>
             </select>
           </div>

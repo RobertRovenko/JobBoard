@@ -26,6 +26,8 @@ const Navbar = () => {
           <Link to="/jobs" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">Jobs</Link>
           <Link to="/about" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">About</Link>
           <Link to="/contact" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">Contact</Link>
+          {/* New Profile Tab */}
+          <Link to="/profile" onClick={() => { scrollToTop(); }} className="text-gray-600 transition-transform transform hover:scale-125">Profile</Link>
         </div>
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden">
@@ -67,6 +69,7 @@ const Navbar = () => {
           <Link to="/jobs" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Jobs</Link>
           <Link to="/about" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">About</Link>
           <Link to="/contact" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Contact</Link>
+          <Link to="/profile" onClick={() => { scrollToTop(); closeMobileMenu(); }} className="text-xl text-gray-600 transition-transform transform hover:scale-125 w-full text-center py-4">Profile</Link>
         </div>
       )}
     </nav>

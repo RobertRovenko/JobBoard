@@ -1,8 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from React Router
 
 const TermsOfService = () => {
   return (
     <div className="relative bg-gradient-to-r from-purple-800 to-indigo-600 py-20">
+      <div className="absolute inset-0 bg-black opacity-70" /> {/* Overlay */}
+
       <div className="container mx-auto px-4 py-8 relative z-10">
         <h1 className="text-2xl font-bold mb-4 text-white">Terms of Service</h1>
         <p className="mb-4 text-gray-200">
@@ -33,10 +36,9 @@ const TermsOfService = () => {
         </p>
         <h2 className="text-xl font-semibold mb-2 text-white">Contact Us</h2>
         <p className="text-gray-200">
-          If you have any questions about these Terms of Service, please contact us at <a href="mailto:support@jobboard.com" className="text-blue-300">support@jobboard.com</a>.
+          If you have any questions about these Terms of Service, please <Link to="/contact" className="text-blue-300">contact us</Link>.
         </p>
       </div>
-      <div className="absolute inset-0 bg-black opacity-30" /> {/* Optional overlay */}
     </div>
   );
 };

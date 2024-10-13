@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'; // Import Link from React Router
 const PrivacyPolicy = () => {
   return (
     <div className="relative bg-gradient-to-r from-purple-800 to-indigo-600 py-20">
+       <div className="absolute inset-0 bg-black opacity-70" /> {/* Overlay */}
+
       <div className="container mx-auto px-4 py-8 relative z-10">
         <h1 className="text-2xl font-bold mb-4 text-white">Privacy Policy</h1>
         <p className="mb-4 text-gray-200">
@@ -34,7 +36,6 @@ const PrivacyPolicy = () => {
         If you have any questions about this Privacy Policy, please <Link to="/contact" className="text-blue-300">contact us</Link>.
         </p>
       </div>
-      <div className="absolute inset-0 bg-black opacity-30" /> {/* Optional overlay */}
     </div>
   );
 };
